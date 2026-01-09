@@ -1,6 +1,6 @@
 {
   "updateTime": "2026-01-09",
-  "baseApiUrl": "http://192.168.200.14:8848",
+  "baseApiUrl": "http://192.168.200.146:8848",
   "backupApiUrl": "http://192.168.200.146:8848",
   "appDataAPI": "https://search.lziapi.com/json-api/"
 }
