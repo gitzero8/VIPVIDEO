@@ -1,5 +1,49 @@
 {
-  "server-api": "后端服务器API接口",
-  "CMSAPI": "影视CMS资源接口",
-  "tips": "内测远程配置，暂未应用到项目中..."
+  "MOVIE_API": {
+    "BASE_URL": "http://192.168.200.147:5000/api",
+    "URL_LIST": "/type/list",
+    "URL_VOID": "/collect/videos"
+  },
+  "SERVER_IP": "http://192.168.200.147:8080",
+  "AUTH_API": {
+    "BASE_URL": "/api/",
+    "LOGIN": "/api/auth/login",
+    "REGISTER": "/api/auth/register",
+    "TOKEN_STATUS": "/api/auth/token-status"
+  },
+  "BANNER_API": {
+    "GET_BANNERS": "/api/banner"
+  },
+  "PERMISSION_API": {
+    "GET_PERMISSION": "/api/permission"
+  },
+  "POINTS_CARD_API": {
+    "EXCHANGE": "/api/card-code/exchange",
+    "RECORD": "/api/card-code/records/user"
+  },
+  "UPGRADE_MEMBER_API": {
+    "EXCHANGE": "/api/user/upgrade-member"
+  },
+  "ITEM_STORE_API": {
+    "GET_CATEGORIES": "/api/item-categories",
+    "GET_ITEMS": "/api/items",
+    "GET_ITEMS_IMAGE": "/items",
+    "BUY_ITEM": "/api/items/buy"
+  },
+  "APP_VERSION_INFO_API": {
+    "GET_VERSION": "/api/app-version"
+  },
+  "AVATAR_API": {
+    "GET_AVATAR": "/avatar",
+    "UPLOAD_AVATAR": "/api/avatar/upload",
+    "GET_AVATAR_FRAME": "/api/user-avatar-frame-items",
+    "SET_AVATAR_FRAME": "/api/user/update-avatar-frame"
+  },
+  "USER_API": {
+    "UPDATE_USERNAME": "/api/user/update-username"
+  },
+  "STORAGE_KEY": {
+    "USER_INFO": "userInfo",
+    "TOKEN": "token"
+  }
 }
