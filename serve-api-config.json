@@ -17,6 +17,9 @@
   "PERMISSION_API": {
     "GET_PERMISSION": "/api/permission"
   },
+  "VIP_API": {
+    "GET_TYPE": "/api/member-type"
+  },
   "POINTS_CARD_API": {
     "EXCHANGE": "/api/card-code/exchange",
     "RECORD": "/api/card-code/records/user"
