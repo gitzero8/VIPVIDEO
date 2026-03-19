@@ -31,7 +31,8 @@
     "GET_CATEGORIES": "/api/item-categories",
     "GET_ITEMS": "/api/items",
     "GET_ITEMS_IMAGE": "/items",
-    "BUY_ITEM": "/api/items/buy"
+    "BUY_ITEM": "/api/items/buy",
+    "BUY_AVATAR_FRAME": "/api/avatar-frame-purchase"
   },
   "APP_VERSION_INFO_API": {
     "GET_VERSION": "/api/app-version"
