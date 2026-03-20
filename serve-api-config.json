@@ -1,10 +1,10 @@
 {
   "MOVIE_API": {
-    "BASE_URL": "http://192.168.200.104:5000/api",
+    "BASE_URL": "http://192.168.200.103:5000/api",
     "URL_LIST": "/type/list",
     "URL_VOID": "/collect/videos"
   },
-  "SERVER_IP": "http://192.168.200.104:8080",
+  "SERVER_IP": "http://192.168.200.103:8080",
   "AUTH_API": {
     "BASE_URL": "/api/",
     "LOGIN": "/api/auth/login",
